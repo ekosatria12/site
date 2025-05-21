@@ -31,8 +31,8 @@ export const PortChooser = () => {
       use this command:
       <pre><code parentName="pre" {...{
               "className": "bash"
-            }}>{`ssh -R 80:localhost:${port} localhost.run
-`}</code></pre>
+            }}>{`ssh -R 80:localhost:${8055} localhost.run
+        `}</code></pre>
     </>
   )
 };
